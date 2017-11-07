@@ -11,7 +11,7 @@ import (
 func main() {
 	port := os.Getenv("PORT") // 80
 
-	redirectTo := os.Getenv("TO")     // https://google.com
+	redirectTo := os.Getenv("https://google.com")     // https://google.com
 	redirectType := os.Getenv("TYPE") // 301
 
 	redirectCode, err := strconv.Atoi(redirectType)
